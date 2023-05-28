@@ -28,10 +28,6 @@ public class World : MonoBehaviour
     // Distance maximale pour les chunks à générer
     public static int maxChunkDistance = 15;
     
-    private const int NumChunksPerSide = 15;
-    private const int TotalChunksPerAxis = (NumChunksPerSide * 2) + 1;
-
-
     // Dictionnaire contenant tous les chunks générés
     public static Dictionary<string, Chunk> chunks;
 
